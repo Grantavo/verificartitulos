@@ -1,0 +1,85 @@
+body {
+font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    /* Fondo con imagen + overlay oscuro para mejor contraste */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(bg_acceso_1600_mini.jpg) center/cover fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 30px auto; /* Aumenté el margen inferior */
+    width: 500px; /* Tamaño aumentado (ajusta este valor) */
+    max-width: 100%; /* Para mantener responsividad */
+    height: auto; /* Mantiene la proporción */
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin: 0 0 30px 0; /* Sin margen superior */
+    font-size: 2em; /* Asegura buen tamaño de título */
+}
+
+.input-group {
+  margin: 20px 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.resultado {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+}
+
+.valido {
+  background: #d4edda;
+  color: #155724;
+}
+
+.invalido {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #7f8c8d;
+}

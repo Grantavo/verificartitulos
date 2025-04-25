@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Títulos</title>
+    <link rel="icon" href="icon.png"> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <img src="logo_login-SEU-altaCalidad.png" alt="Logo" class="logo">
+        <h1>Verificación de Títulos</h1>
+        
+        <div class="input-group">
+            <input type="text" id="codigo" placeholder="Ingrese su código de verificación">
+        </div>
+
+        <button onclick="descargarPDF()">Verificar y Descargar</button>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 Sistema de Verificación de Títulos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
